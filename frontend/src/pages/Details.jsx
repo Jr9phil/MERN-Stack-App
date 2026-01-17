@@ -101,7 +101,7 @@ const DetailPage = () => {
                             />
                         </div>
                         <div className="card-actions justify-end">
-                            <button onClick={handleSubmit} className="btn btn-primary" disabled={saving}>
+                            <button onClick={handleSubmit} className="btn btn-outline btn-primary" disabled={saving}>
                                 {saving ? 'Saving...' : 'Save Changes'}
                             </button>
                         </div>

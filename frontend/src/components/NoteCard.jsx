@@ -19,7 +19,7 @@ const NoteCard = ({note, setNotes}) => {
         }
     };
 
-    return <Link to={`/note/${note._id}`} className="card bg-base-200 hover:shadow-lg transition-all duration-200 border-t-4 border-solid">
+    return <Link to={`/note/${note._id}`} className="card bg-base-200 hover:shadow-lg transition-all duration-200 border-t-4 border-2 border-solid">
         <div className="card-body">
             <h2 className="card-title text-base-content">{note.title}</h2>
             <p className="text-base-content/70 line-clamp-3">{note.content.length > 100 ? note.content.substring(0, 100) + "..." : note.content}</p>

@@ -12,7 +12,7 @@ const Navbar = () => {
             </h1>
             <img src={reactLogo} />
             <div className="flex items-center gap-4">
-                <Link to={"/create"} className="btn btn-primary">
+                <Link to={"/create"} className="btn btn-outline btn-primary">
                 <PlusIcon className="size-5" />
                 <span>New</span>
                 </Link>
